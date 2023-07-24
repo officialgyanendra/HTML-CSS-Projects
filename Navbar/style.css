@@ -1,0 +1,53 @@
+
+body {
+    background: url(women-chiffon-beachwear-coverup-black.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #003542;
+    float: left;
+    color: white;
+
+}
+ul li:hover {
+    background-color: #de1fcb;
+
+}
+ul li ul li {
+    display: none;
+}
+ul li:hover ul li {
+    display: block;
+}
+ul li ul li ul li{
+    display: none;
+}
+ul li ul li:hover ul li{
+    display: block;
+}
+
+ul li ul li ul{
+    position: relative;
+    display: none;
+    
+}
+ul li ul li ul li{
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+ul li ul li:hover ul {
+    display: block;
+}
+ 

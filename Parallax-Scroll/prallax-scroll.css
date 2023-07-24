@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'lato', sans-serif;
+  line-height: 1,8em;
+  color:#666;
+}
+.pimg1, .pimg2, .pimg3, .pimg4 {
+  position: relative;
+  opacity: 0.90;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
+  background-attachment: fixed!important ;
+}
+.pimg1 {
+  background: url("images/city1.jpg");
+  min-height: 100%;
+}
+.pimg2 {
+  background: url("images/city2.jpg");
+  min-height: 400px;
+}
+.pimg3 {
+  background: url("images/city3.jpg");
+  min-height: 400px
+}
+.pimg4 {
+  background: url("images/city4.jpg");
+  min-height: 400px;
+}
+section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-light {
+  background-color: whitesmoke;
+  color: #666;
+}
+.section-dark {
+  background-color: black;
+  color:#ddd;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}

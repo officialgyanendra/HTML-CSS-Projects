@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Deligation </title>
+    <style>
+        div {
+            min-width: 300px;
+            min-height: 200px;
+            padding: 30px;
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <!-- capturing or bubling example -->
+            <!-- <div class="grandParent">
+                <div class="parent">
+                    <div class="child"></div>
+                </div>
+            </div> -->
+
+    <!-- Event deligation example -->
+            <!-- <ul class="parent">
+                <li class="name">Name</li>
+                <li class="contact">Conatct</li>
+                <li class="email">Email</li>
+            </ul> -->
+            <div id="form">
+                <input id="name" placeholder="Name" data-uppercase>
+                <input id="email" placeholder="Email">
+                <input id="add" placeholder="Address" data-uppercase>
+            </div>
+    <script src="event-deligation.js"></script>
+</body>
+</html>
